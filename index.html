@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Online</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/index.js"></script>
+</head>
+<body>
+
+    <h1>Check Your BMI Now !!!</h1>
+
+    <form action="" id="myForm" method="post">
+        <input id="name" type="text" placeholder="ENTER YOUR NAME">
+        <input id="age" type="text" placeholder="ENTER TOUR AGE">
+        <input id="weight" type="text" placeholder="ENTER YOUR WEIGHT (in kg)">
+        <input id="height" type="text" placeholder="Enter YOUR HEIGHT (in cm)">
+
+    </form>
+    <div class="button">
+        <button onclick="getVal()" class="btn1" type="submit">calculate</button>
+        <button class="btn2" onclick="reload()">refresh</button>
+    </div>
+    <p id="para"></p>
+</body>
+
+</html>
